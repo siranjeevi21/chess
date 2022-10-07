@@ -4,8 +4,6 @@ from traceback import format_exc
 from sys import stderr
 from time import strftime
 from copy import deepcopy
-import os
-os.environ["SDL_VIDEODRIVER"] = "dummy"
 pygame.init()
 
 SQUARE_SIDE = 50
